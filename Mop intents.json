@@ -1,0 +1,160 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there", "how can I help?"]
+        
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later", "thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+    
+        {"tag": "Mopedo",
+         "patterns": ["What is Mopedo?","Mopedo?","what is mopedo all about?","is it a bike taxi?"],
+         "responses": ["Mopedo is a Bike-Taxi hailing application integrated with advanced AI technology offering the most affordable and reliable commute service to every common man by considering every second of customer intent."]
+        },
+    
+        {"tag": "Services",
+         "patterns": ["What services does mopedo provide?","services?","services offered by mopedo?","services offered","does mopedo confined only to bike taxi?","is there any auto service?"],
+         "responses": ["The application provides Mopedo Bike and Auto services."]
+        },
+    
+        {"tag": "Safety",
+         "patterns": ["How safe is Mopedo?","Safety concerns?","Is it safe to take up a ride in mopedo?","what about safety?"],
+         "responses": ["The application ensures high-end security for users with safe and home free rides."]
+        },
+    
+        {"tag": "Modes of Payment",
+         "patterns": ["What are all the payment modes mopedo accepts?","Can I pay cash for the Mopedo?","payments?","modes of payment?","do you accept online payments?","Are you cash only?","do you accept credit cards?"],
+         "responses": ["Mopedo allows cash payment and also accepts credit/debit cards, digital wallets(gpay, phonepe, paytm) which saves from hassle of tendering the exact change."]
+        },
+    
+        {"tag": "Guardian booking",
+         "patterns": ["Is it possible to book a ride for others in mopedo?","can I book ride for my parents?","book for others?","guardian booking?","is there an option book ride for my friend?"],
+         "responses": ["Anyone with the mopedo application can book a ride for themselves and guardians just by specifying the guardian’s details."]
+        },
+    
+        {"tag": "Distinct features",
+         "patterns": ["What's the unique thing about mopedo compared to other bike taxi services?","how is it diffrent from other bike taxi services?","what's unique in mopedo?","any unique feature?"],
+         "responses": ["The all-new Mopedo application provides bike services just one click away to every individual. The application is completely automated with the latest AI technology inbuilt without giving a chance of stepping back."]
+        },
+    
+        {"tag": "payments",
+         "patterns": ["How do users pay for charging thier EVs?","modes of payment","Do you accept online payements?", "Do you accept credit cards?", "Do you accept Mastercard?", "Are you cash only?","payment modes?"],
+         "responses": ["Different EV charging stations have different provisions for payements which accepts multiple casheless options includes VISA, Mastercard, Credit cards and AMEX"]
+        },
+    
+        {"tag": "Cities",
+         "patterns": ["Mopedo city boundaries?","where is it available?","mopedo operates in?","cities its operates in?"],
+         "responses": ["It operates across major cities in India. These areas will change overtime as we grow our presence across the country."]
+        },
+    
+        {"tag": "Price Estimation",
+         "patterns": ["How are they charged?","how mopedo calculates its fare?","mopedo fare?","fare estimation?","Price distribution?","Mopedo pricing?","how does mopedo charges?"],
+         "responses": ["Mopedo pricing depends upon Distance travelled, Minimum fare, Per km and Per min which vary based on the pickup and destination locations."]         
+        },
+    
+        {"tag": "waiting charges",
+         "patterns": ["Does mopedo charge for waiting?","does mopedo includes waiting charges in their fare?","waiting charges?","do they charge for waiting?"],
+         "responses": ["The waiting fee will be charged only when the driver is bound to wait for more than 5min at the pickup location."]
+        },
+    
+        {"tag": "distance limit",
+         "patterns": ["Do we have any distance limit?","Any distance limit?","how many km does it cover approx.?","Is there any minimum limit to mopedo?","how far can moepdo take me?","any limit?"],
+         "responses": ["Mopedo is confined to only about 40km from the point of pick-up location."]
+        },
+    
+        {"tag": "safety precautions",
+         "patterns": ["Does the mopedo pilot follow the safety precautions?"],
+         "responses": ["Yes, our driver pilots are informed to follow the agreed customer limits and precautionary measures."]
+          },
+    
+        {"tag": "schedule",
+         "patterns": ["Can I schedule my ride in advance?","Can I schedule a ride?","does mopedo provides an option to book ride in prior?","Book a ride in advance?","any prior scheduling?","pre-scheduling a ride?"],
+         "responses": ["Yes, you can schedule a ride in advance within 24 hours."]
+        },
+    
+        {"tag": "cancellation",
+         "patterns": ["Am I charged for cancellation?","any cancellation charges?","does mopedo charges for cancellation?","cancellation fee?"],
+         "responses": ["The ride cancellation request can be raised before the onboarding ETA and will not be charged unless the request exceeds the ETA?"]
+        },
+    
+         {"tag": "convenient for Women",
+         "patterns": ["Is the Mopedo bike taxi application user-friendly for women?","is mopedo safe for women?","can women takeup a ride with mopedo without any second thought?","is mopedo feasible for women"],
+         "responses": ["It's absolutely a woman friendly application with no hassling risks from the pilots."]
+        },
+    
+         {"tag": "Ride history",
+         "patterns": ["Can I view my ride history?", "will there be any section to view the history of ride?",""],
+         "responses": ["Every ride information with mopedo is automatically saved wherein you can view it in the ride history section"]
+        },
+
+    
+        {"tag": "Women pilots",
+         "patterns": ["Any woman pilots?","women as pilots?","does mopedo has women pilots?","mopedo female pilots?"],
+         "responses": ["Anyone who wants to earn can get registered with mopedo. No one would be restricted on the basis of gender."]
+        },
+
+
+        {"tag": "Ride Service",
+         "patterns": ["Does Mopedo provide 24 hour ride service?","is it 24hr service?","can i book mopedo ride during night times?","mopedo service","does mopedo operates a 24hours a day?"],
+         "responses": ["Customers can book mopedo rides between 6am - midnight"]
+        },
+
+        
+         {"tag": "pilot details",
+         "patterns": ["What details does mopedo provide customers about the pilots during the  onboarding process?","pilot information","do they provide pilot details?"],
+         "responses": ["Once after the ride gets confirmed, you can see the pilot's details which includes Name, Mobile Number, Vehicle number along with a photograph."]
+        },
+
+        
+        {"tag": "Estimated time of arrival",
+         "patterns": ["How does ETA work?","estimated time of arrival?","does mopedo gives users accurate ETA","ETA means?","is ETA visible to us is accurate?","does ETA is accurate?"],
+         "responses": ["ETA given by mopedo is likely to be the approximate time for the driver to reach the pick-up location from his/her current location."]
+        },
+
+        
+        {"tag": "Registration",
+         "patterns": ["How can we get registered with Mopedo?","how to register?","process to register as pilot?","how to register as customer?","how to get into mopedo?"],
+         "responses": ["If you want to get started as a pilot, please download the mopedo Driver application from  playstore. And follow up with the guidelines suggested by the application.If you want to get started as a customer, please download the mopedo taxi(customer) application from  playstore. And follow up with the guidelines suggested by the application."]
+        },
+        
+
+        {"tag": "Ride Insurance",
+         "patterns": [" What is mopedo ride insurance?","mopedo insurace policy?","does mopedo provide any insurance policy for rides?","ride insurance","what is mopedo ride insurance policy?","is there any insurance policy provided mopedo?","what about insurance?"],
+         "responses": ["Mopedo offers a group insurance worth Rs. 5lakhs for their customers in case of unexpected accidents that take place during the ride."]
+        },
+
+        {"tag": "Per ride",
+         "patterns": ["How many customers can travel per ride with mopedo?","customers allowed to travel per ride?","mopedo allows?"],
+         "responses": ["Mopedo bike allows a single customer per ride.Mopedo Auto allows two customers per ride."]
+        },
+
+        {"tag": "Tracking Ride",
+         "patterns": ["How can we track our ride?","can we track ongoing ride?","how to track our ride?","tracking a ride?","does mopedo allows to track ride?"],
+         "responses": ["Once your booking is confirmed, you’ll be able to track your ride on the main map screen and view the following details in the Map section. Within the application dashboard.Driver ETA and current location, Driver route to your pick-up address, And whole estimated distance of your ride."]
+        },
+    
+
+        {"tag": "Refer Friend",
+         "patterns": ["What does “refer a friend policy mean?","refer friend policy?","can we refer friends to use mopedo app?","do we have any benefits by referring a friend?","what is refer a friend?"],
+         "responses": ["The registered customers can refer the application through a sharable link to others and gain bonus rewards. These bonus rewards can be redeemed and used for the next ride."]
+        },
+
+        {"tag": "Saving option",
+         "patterns": ["Can we save our favourite destinations?"],
+         "responses": ["Mopedo provides an option to save your preferred destinations."]
+        },
+
+        {"tag": "",
+         "patterns": [""],
+         "responses": ["for further information, you can reach us at <a href='info@mopedo.in'>info@mopeod.in</a>"]
+        }
+        
+   ]
+}
+
